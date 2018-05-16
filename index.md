@@ -4,3 +4,8 @@
 
 layout: home
 ---
+{% for post in site.posts %}
+{% include post-info.html %}Prev:     {{ post.previous.title }}
+Next:     {{ post.next.title }}
+---
+{% endfor %}
