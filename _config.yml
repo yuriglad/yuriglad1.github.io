@@ -42,3 +42,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 lang: en
+gems:
+  - octopress-multilingual
+  - octopress-linkblog
